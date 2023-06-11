@@ -40,7 +40,7 @@ void initialData(float *ip, const int size)
 {
     int i;
 
-    for (i = 0; i < size; i++)
+    for (i = 0; i < size; i++) 
     {
         ip[i] = (float)( rand() & 0xFF ) / 10.0f;
     }
